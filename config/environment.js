@@ -24,19 +24,22 @@ module.exports = function (environment) {
     },
 
     blog: {
-      title: 'empress-blog',
-      description: 'Static Blog System - Built with Ember',
+      title: 'Robotichead The Dev',
+      description: 'A simple open source dev',
       coverImage: '/images/blog-cover.jpg',
 
-      navigation: [{
-        label: 'Home',
-        route: 'index'
-      }, {
-        label: 'Built by Chris Manson',
-        route: 'page',
-        id: 'chris-manson'
-      }]
-    }
+      navigation: [
+        {
+          label: 'Home',
+          route: 'index',
+        },
+        {
+          label: 'Social Links',
+          route: 'page',
+          id: 'social-links',
+        },
+      ],
+    },
   };
 
   if (environment === 'development') {
