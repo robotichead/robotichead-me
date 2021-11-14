@@ -1,5 +1,5 @@
 ---
-title: Why Django? Why VueJS
+title: Why Django Why VueJS
 image: /images/advanced.jpg
 imageMeta:
   attribution:
